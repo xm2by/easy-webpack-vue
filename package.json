@@ -1,0 +1,36 @@
+{
+  "name": "easy-webpack-vue",
+  "version": "1.0.0",
+  "description": "webpack构建的一个vue.js学习、开发环境",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production --progress --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xm2by/easy-webpack-vue.git"
+  },
+  "keywords": [
+    "webpack",
+    "vue"
+  ],
+  "author": "xm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xm2by/easy-webpack-vue/issues"
+  },
+  "homepage": "https://github.com/xm2by/easy-webpack-vue#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.20.3",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
+  }
+}
